@@ -104,7 +104,7 @@ h2 {
 #aboutme {
     font-size: 1.2rem;
     color: #edf0f1;
-    font-family: "Montserrat", sans-serif;;
+    font-family: "Montserrat", sans-serif;
 }
 
 #Headshot_img {
@@ -130,10 +130,37 @@ button:hover {
 }
 
 .project_section {
-    border: 1px solid white;
-    margin: 3rem 7rem;
+    border-top: 2px solid #0088a9;
+    list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: 
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding: 3rem;
+    margin: 3rem 7rem;
+}
 
+
+.project_section li {
+    width: 20%;
+    margin: 1.5rem;
+    
+}
+
+.project_section li img {
+    border: 1px solid #0088a9;
+    
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer_section {
+    border: 1px solid white;
+    display: flex;
+    text-align: center;
 }
