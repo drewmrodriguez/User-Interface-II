@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 /* every element is a border-box */
 * {
     box-sizing: border-box;
+    background-color: #24252A;
 }
 
 html {
@@ -37,18 +38,37 @@ html {
 
 h1 {
     font-family: 'Russo One', sans-serif;
+    color: #edf0f1;
+    font-size: 3rem;
+    padding: 2rem 2rem;
+    margin-left: .1rem;
 }
 
-.topnav {
-    background-color: aqua;
-    
-
+header {
+    display: flex;
+    align-items: center;
+    padding: 3rem 5%;
 }
 
-.topnav a {
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #edf0f1;
     text-decoration: none;
 }
 
-.topnav a:hover {
+.topnav li {
+    display: inline-flex;
+    padding: 0 2rem;
+}
 
+.topnav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.topnav li a:hover{
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
 }
