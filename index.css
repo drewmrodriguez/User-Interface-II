@@ -47,7 +47,10 @@ h1 {
 header {
     display: flex;
     align-items: center;
-    padding: 3rem 5%;
+    border-bottom: 2px solid #0088a9;
+    margin: 2rem 8rem 1rem 8rem;
+    padding-bottom: 2rem;
+    
 }
 
 
@@ -71,4 +74,66 @@ li, a {
 .topnav li a:hover{
     transition: all 0.3s ease 0s;
     color: #0088a9;
+}
+
+.first_container {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.info_container {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 10rem;
+    padding: 6.7rem 1rem;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;;
+}
+
+#aboutme {
+    font-size: 1.2rem;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;;
+}
+
+#Headshot_img {
+    width: 120%;
+    border: 2px solid #0088a9;
+    border-radius: 50%;
+    margin-right: 10rem;
+}
+
+.Projects_Btn {
+    padding: .9rem 2.5rem;
+    color: #edf0f1;
+    font-size: 1.2rem;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.project_section {
+    border: 1px solid white;
+    margin: 3rem 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: 
+
 }
