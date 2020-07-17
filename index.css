@@ -161,6 +161,9 @@ h3 {
 
 .footer_section {
     border: 1px solid white;
+    background-color: #24252A;
+    filter: brightness(115%);
     display: flex;
-    text-align: center;
+    
+    padding: 6rem;
 }
